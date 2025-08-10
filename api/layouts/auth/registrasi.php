@@ -65,7 +65,7 @@ require "../../function.php";
         <button type="submit" name="register" class="flex w-full justify-center rounded-md bg-indigo-500 px-3 py-1.5 text-sm/6 font-semibold text-white hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Sign Up</button>
       </div>
       <p class="text-white text-center">
-        <a href="/projek/layouts/auth/login.php">
+        <a href="/projek/api/layouts/auth/login.php">
         Sudah memiliki akun? <span class="text-indigo-500"> Masuk </span>
         </a>
       </p>

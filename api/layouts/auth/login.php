@@ -48,10 +48,10 @@ if (isset($_POST["login"])) {
             header("Location: ../../index.php");
             exit;
         } else {
-            $alert = "Password salah.";
+            $alert = "Password salah🤔";
         }
     } else {
-        $alert = "User tidak ditemukan.";
+        $alert = "User tidak ditemukan🫣";
     }
 }
 ?>
@@ -108,7 +108,7 @@ if (isset($_POST["login"])) {
 
     <p class="text-center text-sm text-gray-500 mt-4">
       Belum punya akun?
-      <a href="/projek/layouts/auth/registrasi.php" class="text-blue-600 hover:underline">Daftar sekarang</a>
+      <a href="/projek/api/layouts/auth/registrasi.php" class="text-blue-600 hover:underline">Daftar sekarang</a>
     </p>
   </div>
 

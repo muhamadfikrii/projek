@@ -9,6 +9,6 @@
   setcookie('key', '', time() - 3600, '/');
 }
 
-    header( "Location: /projek/layouts/auth/login.php");
+    header( "Location: /projek/api/layouts/auth/login.php");
     exit;
 ?>
